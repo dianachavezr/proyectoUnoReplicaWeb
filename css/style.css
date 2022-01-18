@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Mulish:wght@300&family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*  font-family: 'Kanit', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Newsreader', serif;
+    */
+
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+    body{
+        max-width:1440px;
+        width: 100%;
+        display: flex;
+    }
+
+    .container{
+        max-width:1440px;
+        width: 100%;
+        height: auto;
+    }
+
+    h1  {    
+        font-family: 'Newsreader', serif;
+        font-size: 5rem;    
+    }
+
+
+    p, a, li, footer {
+        font-family: 'Mulish', sans-serif;
+        color: #7a838a;
+
+    }
+
+    h3{
+        font-family: 'Kanit', sans-serif
+    }
+    /*BEGIN HEADER STYLES******************/
+    header {   
+        max-width:1440px;
+        width: 100%;
+        height: 90px;
+        display:inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 25px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 3px grey;
+        position:fixed;
+        top: 0%;
+        z-index: 5;  
+    }
+
+    #title  {
+        margin-left: 50px;
+        font-weight: 800;
+        color: #000000;
+
+    }
+
+    nav{
+        margin-left: 23rem;
+
+    }
+
+    nav ul li{
+        display: inline-block;
+        margin-left: 30px;
+        color: #000000;
+        font-weight:bold ;
+    }
+    nav ul li a{
+        text-decoration: none;
+    }
+
+
+    nav ul li:hover{
+        display: inline-block;
+        margin-left: 30px;
+        color: #2836f0;
+    }
+
+    #button1{
+        max-width: 350px; 
+        width: 100%;
+        display: flex;
+        padding: 10px 25px;
+        border-radius: 20px;
+        background-color: #2836f0;
+        color: hsl(0, 0%, 100%);
+        font-size: 1rem;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 600;
+
+    }
+    #icon{
+        width: 20px;
+        margin-right: 10px;
+    }
+    /*END HEADER STYLES******************/
+
+    /*BEGIN SECTION ONE STYLES*************/
+
+    #sectionOne{
+        margin-top:5.5rem;
+        width: 100%;
+        background-color:#f9f9fb;
+        height: 550px;
+        display: inline-flex;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    #secOne1{
+
+        width: 50%;
+        height: 550px;
+        padding: 6rem 7.5rem;
+    }
+    #secOne1 h1{
+        margin-bottom: 15px;  
+        color: #202529;
+    }
+
+    #secOne1 p{
+        width: 480px;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    #sectCell{
+        width: 50%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #circle{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: linear-gradient(to bottom right, #452fed, #9f1fe2);
+        z-index: 2;
+        margin: 85px 100px 0 0 ;        
+    }
+
+
+
+    #sectCell #cell{
+        position: absolute;
+        width: 252px;
+        max-height: 508px;
+        margin-top: 30px;
+        margin-left: -50px;    
+        z-index: 3;
+    }
+
+    video{
+        position: absolute;
+        width:260px;
+        height:490px;
+        border-radius: 19%;
+        top: 220px; 
+        margin: -6rem 0 0 -3rem; 
+        z-index: 2;   
+    }
+
+    #cross {
+        margin: 28rem 0 0 -30rem;
+        background:#2836f0;
+        height: 27px;
+        position: relative;
+        width: 7px;
+        transform:rotate(30deg);
+        border-radius: 50px;
+
+    }
+    #cross:after {
+        background: #2836f0;
+        content: "";
+        height: 7px;
+        left: -10px;
+        position: absolute;
+        top: 10px;
+        width: 27px;
+        border-radius: 50px;
+
+    }
+
+    #point{
+        position:absolute;
+        width: 15px;
+        height: 15px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #2836f0;
+        z-index: 2;
+        margin: 120px 0 0 320px ; 
+    }
+    /*END SECTION ONE STYLES*************/
+
+    /*BEGIN SECTION TWO STYLES****************/
+
+    #sectionTwo{
+        width: 100%;
+        background-image:url("../images/fondo2.png");
+        background-repeat: no-repeat;  
+        color: #ffffff;
+        height: 550px;
+        display: block;
+        padding: 12rem 8rem;       
+    }
+
+    #sectionTwo h1{
+      font-size: 5rem;
+  }
+
+
+  #button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:260px;
+    height: 50px;
+    border-radius:50px;
+    border: 1px solid #ffffff;
+    background: transparent; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*END SECTION TWO STYLES****************/
+
+
+/*BEGIN SECTION THREE STYLES**************/
+#sectionThree{
+    width: 100%;
+    height: 652px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    z-index: 1;    
+}
+
+#sectionThree #sectCell{
+    width: 40%;
+    height: 550px;
+    display: flex;
+    text-align: center;
+}
+
+#sectionThree #circle{
+
+    width: 300px;
+    height: 300px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #452fed, #9f1fe2);
+    z-index: 2;
+    margin: 8rem 5rem 0 0; 
+}
+
+#sectionThree #cell{
+    position: absolute;
+    width: 252px;
+    max-height: 508px;
+    margin-top: 30px;
+    margin-left: 1rem;
+    z-index: 3;
+
+}
+#sectionThree video{
+    position: absolute;
+    width:260px;
+    height:490px;
+    border-radius: 15%; 
+    top:1310px;
+    z-index: 2;
+    margin: -5.5rem 0 0 1rem;
+
+}
+
+#sectionThree #cross {
+    margin: 3rem 0 0 22.5rem;
+    background:#2836f0;
+    height: 27px;
+    position: relative;
+    width: 7px;
+    transform:rotate(60deg);
+    border-radius: 50px;
+    
+}
+
+#sectionThree #cross:after {
+    background: #2836f0;
+    content: "";
+    height: 7px;
+    left: -10px;
+    position: absolute;
+    top: 10px;
+    width: 27px;
+    border-radius: 50px;
+    
+}
+
+#sectionThree #point{
+    position:absolute;
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #2836f0;
+    z-index: 2;
+    margin: 28rem 20rem 0 0 ; 
+}
+
+
+#sectIcons{    
+    width: 60%;
+    height: 550px;
+    display: flex;
+    text-align: center;   
+}
+
+#sectIcons #icons4 div:nth-child(1){
+    position: relative;
+    left: 10%;
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+    padding: 20px;    
+    line-height: 1.5rem;
+}
+
+#sectIcons #icons4 #icon{
+    width: 60px;
+    height: 70px; 
+    margin-bottom: 25px;  
+}
+
+
+
+#icons4 div:nth-child(2){
+    position: relative;
+    bottom: 36.5%;
+    left: 130%;
+    max-width: 300px;
+    width: 100%
+    height: 200px;
+    padding: 20px;
+    line-height: 1.5rem;
+}
+
+#sectIcons #icons4 #icon2{
+    width: 70px;
+    height: 60px;
+    margin-bottom: 25px;  
+}
+
+
+
+#icons4 div:nth-child(3){
+    position: relative;
+    bottom:10%;
+    left: 10%;   
+    max-width: 300px;
+    width: 100%
+    height: 200px;
+    padding: 20px;
+    line-height: 1.5rem;
+}
+
+#sectIcons #icons4 #icon3{
+    width: 70px;
+    height: 55px;
+    margin-bottom: 25px;  
+}
+
+#icons4 div:nth-child(4){
+    position: relative;
+    bottom: 46%;
+    left: 130%;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    line-height: 1.5rem;
+}
+#sectIcons #icons4 #icon4{
+    width: 70px;
+    margin-bottom: 15px;     
+}
+/*END SECTION THREE STYLES**************/
+
+/*BEGIN FOOTER STYLES**********************/
+
+footer{
+    width: 100%;
+    height: 149px;
+    background-color: #000000;
+    color: #333333;
+    display: inline-block;  
+    text-align: center;
+    line-height: 2.5rem;
+    padding-top: 30px; 
+}
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot li{
+    list-style-type: disc;
+    float: left;
+    margin-left: 30px;
+    color: #333333;
+}
+
+/*END  FOOTER STYLES**********************/
+
+/*BEGIN MEDIA QUERYES 1024PX*************/
+@media only screen and (max-width:1024px) {
+  header{
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2rem 0 3rem;
+}
+
+#title{
+    width: 10rem;
+}
+nav{
+    width: 60%;
+    margin-left: 15rem;
+}
+
+#button1{
+    width: 200px;
+    margin-left: 5rem;
+
+}
+#secOne1{
+    width: 55%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+}
+
+#sectCell{
+    width: 45%;
+    padding: 0 0 0 5rem;
+}
+
+#sectionThree #cross{
+ visibility: hidden;
+}
+
+#sectIcons #icons4 div:nth-child(1){
+    left: 5%;
+}
+#icons4 div:nth-child(2){
+    left: 105%;   
+}
+
+#icons4 div:nth-child(3){
+    left: 5%;   
+}
+
+#icons4 div:nth-child(4){
+    left: 105%;
+}
+}
+
+/*END MEDIA QUERYES 1024PX*************/
+
+
+/*BEGIN MEDIA QUERYES 768PX**************/
+@media only screen and (max-width:768px) {
+  header{
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    padding: 0 1rem 0 0rem;
+}
+
+#title{
+    width: 8rem;
+}
+nav{
+    width: 100%;
+    margin-left: 1rem;
+}
+
+#button1{
+    width: 200px;
+    margin-left: 5rem;
+
+}
+
+#secOne1{
+    width: 45%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+#secOne1 h1{
+    width: 250px;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+#secOne1 p{
+    width: 250px;
+}
+
+
+#sectCell{
+    width: 55%;
+    padding-right: 4rem;
+}
+
+#sectCell #circle{
+    width: 350px;
+    height: 350px;
+}
+
+#sectionTwo{
+    padding: 8rem;       
+}
+
+#sectionTwo h1{
+    width: 550px;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+#sectionThree  #sectCell{
+    width: 50%;
+    padding-left: 10rem;
+}
+#sectIcons{
+    width: 50%;
+}
+#sectIcons #icons4 div:nth-child(1){
+    width: 50%;
+    left: 5%;
+}
+#icons4 div:nth-child(2){
+    width: 50%;
+    left: 50%;   
+}
+
+#icons4 div:nth-child(3){
+    width: 50%;
+    left: 5%;
+    bottom: 135px;   
+}
+
+#icons4 div:nth-child(4){
+    width: 50%;
+    left: 50%;
+    top:-380px;
+}
+}
+/*END MEDIA QUERYES 768PX**************/
+
+
+/*BEGIN MEDIA QUERYES 425px**************/
+@media only screen and (max-width:425px){
+ header{
+    display: block;
+    padding: 3rem;
+    height: auto;
+    width: 425px;
+    text-align: center;
+}
+header #title{
+    width: 70%; 
+    font-size: 1.5rem;
+    margin-left: 20%;
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 2rem;
+}
+
+#sectionOne{
+    margin-top: 50%;
+    display: inline-block;
+    height: auto;
+}
+
+#secOne1{   
+    width: 100%;
+    height: 50%;
+}
+
+#secOne1 h1{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 30px 0 30px 10px;
+    font-size: 3.5rem;
+}
+
+#secOne1 p{
+    width:90%;
+    padding: 0 0 0 30px;
+}
+#sectionOne #sectCell{
+    width: 100%;
+    padding: 0 0 0 5rem;
+}
+
+#sectionOne #circle{
+    width: 350px;
+    height: 350px;
+}
+video{
+    top: 57rem;
+}
+
+#sectionTwo{
+    padding: 4rem;       
+}
+
+#sectionTwo h1{
+    width: 350px;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+#button2{
+    margin-left: 25px;
+}
+
+#sectionThree{
+    width:100%;
+    display: inline-block;
+    height: auto;
+}
+
+#sectionThree #sectCell{
+    padding: 0 0 0 15rem;
+}
+
+#sectionThree video{
+    top: 126rem;
+}
+#sectIcons{
+    width: 100%;
+}
+
+}
+
+/*END MEDIA QUERYES 425px**************/
+
+/*BEGIN MEDIA QUERYES 375px**************/
+
+@media only screen and (max-width:375px){
+    header{
+      width: 375px;
+      padding: 3rem 6rem 3rem 0;
+  }
+  header #title{
+    margin-left: 5rem;
+}
+#secOne1 h1{
+    font-size: 3rem;
+}
+
+#sectionOne #sectCell #circle{
+    width: 350px;
+    height: 350px;
+}
+#sectionOne #sectCell #point{
+    margin-right: 5rem;
+}
+
+#sectionOne #sectCell #cross{
+    display: none;
+}
+
+video{
+    top: 54rem;
+}
+
+#sectionTwo{
+    padding: 2rem;       
+}
+#sectionTwo h1{
+    width: 350px;
+    font-size: 3.5rem;
+}
+
+#sectionThree #circle{
+    width: 300px;
+    height: 300px;
+    margin-right:8rem ;
+}
+#sectionThree #cell{
+    margin-left: -1.5rem;
+}
+#sectionThree video{
+    top: 123rem;
+    margin-left: -1.5rem;
+
+}
+#icons4 div:nth-child(2){
+   top: -12rem;  
+}
+
+#icons4 div:nth-child(4){
+   top: -25rem;  
+}
+#sectIcons{
+    height: 40rem;
+}
+}
+
+/*END MEDIA QUERYES 375px**************/
+
+/*BEGIN MEDIA QUERYES 320px**************/
+@media only screen and (max-width:320px){
+   header{
+      width: 320px;
+      padding: 3rem 8rem 3rem 0;
+  }
+
+  header #title{
+    width: 100%;
+}
+nav{
+    width: 300px;
+}
+
+#sectionOne{
+    margin-top: 60%;
+
+}
+
+#secOne1 h1{
+    font-size: 2.5rem;
+}
+
+#sectionOne #sectCell #circle{
+    width: 300px;
+    height: 300px;
+}
+#sectionOne #sectCell #point{
+    margin-right: 7rem;
+}
+
+video{
+    top: 56rem;
+}
+
+#sectionTwo{
+    padding: 7rem 1rem;       
+}
+#sectionTwo h1{
+    width: 300px;
+    font-size: 3rem;
+}
+
+
+#sectionThree video{
+    top: 124rem;
+    left: 4.3rem;
+}
+
+#sectionThree #circle{
+
+    width: 250px;
+    height: 250px;
+    margin-right: 12rem;
+}
+
+#sectionThree #cell{
+    margin-left: -4rem;
+}
+
+#sectionThree #point{
+    margin-right: 25rem;
+}
+
+#foot li{
+    font-size: 15px;
+}
+}
+
+/*END MEDIA QUERYES 320px**************/
