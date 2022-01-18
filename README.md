@@ -16,9 +16,9 @@ Adicionalmente se crearon **mockups en figma** para tabletas y dispositivos móv
 
 Adicional a las herramientas facilitadas para el desarrollo del proyecto, utilizaron diversos links como herramienta de aprendizaje como:
 
-- - Curso de Github para pode crear y subir el repositorio [Aquí](https://www.youtube.com/watch?v=eQMcIGVc8N0&t=194s "Aquí")
-- - Curso Github para creación del Readme.md [Aquí](https://www.youtube.com/watch?v=yNs1CJK1aJs "Aquí")
-- - Trucos CSS para la creación de las diferentes figuras [Aquí](http://https://css-tricks.com/the-shapes-of-css/ "Aquó")- 
+- Curso de Github para pode crear y subir el repositorio [Aquí](https://www.youtube.com/watch?v=eQMcIGVc8N0&t=194s "Aquí")
+- Curso Github para creación del Readme.md [Aquí](https://www.youtube.com/watch?v=yNs1CJK1aJs "Aquí")
+- Trucos CSS para la creación de las diferentes figuras [Aquí](https://css-tricks.com/the-shapes-of-css/ "Aquí")- 
 - Flaticon para la creación de los logos degradados [Aquí](https://www.flaticon.es/ "Aquí")
 
 Fue un proyecto muy enriquecedor donde aprendí muchas cosas nuevas y sé que aprenderé más cada día con perseverancia y disciplina.
